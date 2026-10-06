@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Joud — Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =================================
+     JA SPLASH SCREEN
+================================= -->
+
+<div class="splash-screen">
+
+    <div class="splash-logo">
+        <span>J</span><span>A</span>
+    </div>
+
+    <div class="splash-line"></div>
+
+    <p>WELCOME TO MY PORTFOLIO</p>
+
+</div>
+
+
+<!-- =================================
+     CUSTOM CURSOR
+================================= -->
+
+<div class="cursor"></div>
+<div class="cursor-dot"></div>
+
+
+<!-- =================================
+     BACKGROUND
+================================= -->
+
+<div class="background-glow glow-purple"></div>
+<div class="background-glow glow-blue"></div>
+
+
+<!-- =================================
+     NAVIGATION
+================================= -->
+
+
+
+
+<!-- =================================
+     MAIN
+================================= -->
+
+<main id="home">
+
+
+    <!-- =================================
+         HERO
+    ================================= -->
+
+    <section class="hero" id="hero">
+
+        <div class="hero-grid"></div>
+
+        <div class="hero-content">
+
+            <div class="hero-intro">
+                HI, I'M
+            </div>
+
+
+            <!-- TYPING NAME -->
+
+            <h1 class="hero-name">
+                <span id="typing-name"></span>
+                <span class="typing-cursor"></span>
+            </h1>
+
+
+            <!-- TYPING DESCRIPTION -->
+
+            <p class="hero-description">
+                <span id="typing-description"></span>
+            </p>
+
+
+           <div class="hero-bottom">
+
+    <!-- LEFT SIDE -->
+    <div class="hero-actions">
+
+        <!-- DOWNLOAD CV -->
+        <a
+            href="Joud-Alotaibi-CV.pdf"
+            class="hero-button hero-button-secondary"
+            download
+        >
+            <span>↓</span>
+            DOWNLOAD CV
+        </a>
+
+
+        <!-- SOCIALS -->
+        <div class="hero-socials">
+
+           <a
+    href="https://www.linkedin.com/in/joud-alotaibi-b83023395"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="LinkedIn"
+>
+    in
+</a>
+          <a
+    href="https://github.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="GitHub"
+>
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        width="24"
+        height="24"
+        fill="currentColor"
+        aria-hidden="true"
+    >
+        <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577
+        0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61
+        C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729
+        1.205.084 1.84 1.237 1.84 1.237 1.07 1.835 2.809 1.305 3.495.998
+        .108-.776.417-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.93
+        0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176
+        0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405
+        1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23
+        .645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22
+        0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22
+        0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57
+        C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+    </svg>
+</a>
+
+        </div>
+
+    </div>
+
+
+  
+
+
+    <!-- EXPLORE ON RIGHT -->
+    <a href="#folders" class="explore">
+
+        <span class="explore-text">
+            Explore<br>portfolio
+        </span>
+
+        <span class="explore-arrow">
+            ↓
+        </span>
+
+    </a>
+
+</div>
+
+
+    <!-- =================================
+         PORTFOLIO FOLDERS
+    ================================= -->
+
+    <section id="folders" class="folders-section">
+
+        <div class="section-header">
+
+            <div>
+
+                <span class="section-label">
+                    PORTFOLIO
+                </span>
+
+                <h2>
+                    MY <span>WORKSPACE</span>
+                </h2>
+
+            </div>
+
+            <p>
+                06 SECTIONS
+            </p>
+
+        </div>
+
+
+        <div class="folder-grid">
+
+
+            <!-- =================================
+                 01 ABOUT
+            ================================= -->
+
+            <button
+                class="folder-card folder-purple"
+                data-modal="about-modal"
+                type="button"
+            >
+
+                <div class="folder-icon">
+
+                    <div class="folder-back"></div>
+
+                    <div class="folder-paper">
+                        <i></i>
+                        <i></i>
+                    </div>
+
+                    <div class="folder-front"></div>
+
+                </div>
+
+                <div class="folder-number">
+                    01
+                </div>
+
+                <h3>
+                    ABOUT ME
+                </h3>
+
+                <p>
+                    Get to know me
+                </p>
+
+                <span class="open">
+                    OPEN FOLDER
+                    <b>↗</b>
+                </span>
+
+            </button>
+
+
+            <!-- =================================
+                 02 PROJECTS
+            ================================= -->
+
+            <button
+                class="folder-card folder-blue"
+                data-modal="projects-modal"
+                type="button"
+            >
+
+                <div class="folder-icon">
+
+                    <div class="folder-back"></div>
+
+                    <div class="folder-paper">
+                        <i></i>
+                        <i></i>
+                    </div>
+
+                    <div class="folder-front"></div>
+
+                </div>
+
+                <div class="folder-number">
+                    02
+                </div>
+
+                <h3>
+                    PROJECTS
+                </h3>
+
+                <p>
+                    Personal projects
+                </p>
+
+                <span class="open">
+                    OPEN FOLDER
+                    <b>↗</b>
+                </span>
+
+            </button>
+
+
+            <!-- =================================
+                 03 EXPERIENCE
+            ================================= -->
+
+            <button
+                class="folder-card folder-pink"
+                data-modal="experience-modal"
+                type="button"
+            >
+
+                <div class="folder-icon">
+
+                    <div class="folder-back"></div>
+
+                    <div class="folder-paper">
+                        <i></i>
+                        <i></i>
+                    </div>
+
+                    <div class="folder-front"></div>
+
+                </div>
+
+                <div class="folder-number">
+                    03
+                </div>
+
+                <h3>
+                    EXPERIENCE
+                </h3>
+
+                <p>
+                    Internship experience
+                </p>
+
+                <span class="open">
+                    OPEN FOLDER
+                    <b>↗</b>
+                </span>
+
+            </button>
+
+
+            <!-- =================================
+                 04 EDUCATION
+            ================================= -->
+
+            <button
+                class="folder-card folder-green"
+                data-modal="education-modal"
+                type="button"
+            >
+
+                <div class="folder-icon">
+
+                    <div class="folder-back"></div>
+
+                    <div class="folder-paper">
+                        <i></i>
+                        <i></i>
+                    </div>
+
+                    <div class="folder-front"></div>
+
+                </div>
+
+                <div class="folder-number">
+                    04
+                </div>
+
+                <h3>
+                    EDUCATION
+                </h3>
+
+                <p>
+                    Computer Science graduate
+                </p>
+
+                <span class="open">
+                    OPEN FOLDER
+                    <b>↗</b>
+                </span>
+
+            </button>
+
+
+            <!-- =================================
+                 05 CERTIFICATES
+            ================================= -->
+
+            <button
+                class="folder-card folder-gold"
+                data-modal="certificates-modal"
+                type="button"
+            >
+
+                <div class="folder-icon">
+
+                    <div class="folder-back"></div>
+
+                    <div class="folder-paper">
+                        <i></i>
+                        <i></i>
+                    </div>
+
+                    <div class="folder-front"></div>
+
+                </div>
+
+                <div class="folder-number">
+                    05
+                </div>
+
+                <h3>
+                    CERTIFICATES
+                </h3>
+
+                <p>
+                    Achievements
+                </p>
+
+                <span class="open">
+                    OPEN FOLDER
+                    <b>↗</b>
+                </span>
+
+            </button>
+
+
+            <!-- =================================
+                 06 CONTACT
+            ================================= -->
+
+            <button
+                class="folder-card folder-cyan"
+                data-modal="contact-modal"
+                type="button"
+            >
+
+                <div class="folder-icon">
+
+                    <div class="folder-back"></div>
+
+                    <div class="folder-paper">
+                        <i></i>
+                        <i></i>
+                    </div>
+
+                    <div class="folder-front"></div>
+
+                </div>
+
+                <div class="folder-number">
+                    06
+                </div>
+
+                <h3>
+                    CONTACT
+                </h3>
+
+                <p>
+                    Let's connect
+                </p>
+
+                <span class="open">
+                    OPEN FOLDER
+                    <b>↗</b>
+                </span>
+
+            </button>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+
+<!-- =========================================================
+     POPUP 01 — ABOUT
+========================================================= -->
+
+<div class="modal" id="about-modal">
+
+    <div class="experience-content">
+
+        <button class="modal-close" type="button">
+            ×
+        </button>
+
+        <div class="section-label">
+            01. ABOUT
+        </div>
+
+        <h2>
+            About Me
+        </h2>
+
+        <div class="experience-item">
+
+            <div class="experience-date">
+                COMPUTER SCIENCE GRADUATE
+            </div>
+
+            <h3>
+                Joud Alotaibi
+            </h3>
+
+            <div class="experience-company">
+                Arab Open University · Riyadh, Saudi Arabia
+            </div>
+
+            <div class="experience-points">
+
+                <p>
+                    → Computer Science graduate from Arab Open University.
+                </p>
+
+                <p>
+                    → Interested in software development,
+                    web technologies, and creating practical
+                    digital solutions.
+                </p>
+
+                <p>
+                    → Passionate about building modern,
+                    responsive, and user-friendly web experiences.
+                </p>
+
+                <p>
+                    → Interested in applying technology to
+                    solve real-world problems.
+                </p>
+
+                <p>
+                    → Continuously developing my skills in
+                    programming, databases, web development,
+                    and modern software technologies.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =========================================================
+     POPUP 02 — PROJECTS
+========================================================= -->
+
+<div class="modal" id="projects-modal">
+
+    <div class="projects-window">
+
+        <div class="projects-topbar">
+
+            <div class="projects-title">
+
+                <span class="window-status"></span>
+
+                <span>
+                    02 · PROJECTS
+                </span>
+
+            </div>
+
+            <button class="modal-close" type="button">
+                ×
+            </button>
+
+        </div>
+
+
+        <div class="project-showcase">
+
+            <div class="browser-bar">
+
+                <div class="browser-dots">
+
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+
+                </div>
+
+                <div class="browser-url">
+                    joud / kfmc-internship-portal
+                </div>
+
+            </div>
+
+
+            <div class="project-preview">
+
+                <div class="project-number">
+                    01
+                </div>
+
+                <div class="featured-badge">
+                    ★ FEATURED
+                </div>
+
+                <img
+                    src="images/kfmc-project.png.png"
+                    alt="KFMC Internship Portal"
+                >
+
+            </div>
+
+
+            <div class="project-info">
+
+                <div class="project-details">
+
+                    <h2>
+                        KFMC Internship Portal
+                    </h2>
+
+                    <p class="project-subtitle">
+                        ASP.NET Web Forms · C# · SQL Server
+                    </p>
+
+                    <p class="project-description">
+                        A web-based internship portal developed
+                        for King Fahad Medical City to provide
+                        trainees with a centralized platform for
+                        departments, supervisors, announcements,
+                        campus information, FAQs, internship tasks,
+                        and resources.
+                    </p>
+
+                </div>
+
+
+                <a
+                    href="http://juda2026-001-site1.ktempurl.com/"
+                    class="case-file-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    OPEN CASE FILE
+                    <span>→</span>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =========================================================
+     POPUP 03 — EXPERIENCE
+========================================================= -->
+
+<div class="modal" id="experience-modal">
+
+    <div class="experience-content">
+
+        <button class="modal-close" type="button">
+            ×
+        </button>
+
+        <div class="section-label">
+            03. EXPERIENCE
+        </div>
+
+        <h2>
+            Experience
+        </h2>
+
+        <div class="experience-item">
+
+            <div class="experience-date">
+                06/2026 — 07/2026
+            </div>
+
+            <h3>
+                Full Stack Web Developer Intern
+            </h3>
+
+            <div class="experience-company">
+                King Fahad Medical City · Riyadh, Saudi Arabia
+            </div>
+
+            <div class="experience-points">
+
+                <p>
+                    → Developed a web-based Internship Portal
+                    for King Fahad Medical City using
+                    ASP.NET Web Forms and C#.
+                </p>
+
+                <p>
+                    → Designed and implemented a centralized
+                    platform for managing departments,
+                    supervisors, internship tasks,
+                    announcements, and resources.
+                </p>
+
+                <p>
+                    → Built database-driven features using
+                    SQL Server and ADO.NET.
+                </p>
+
+                <p>
+                    → Developed an admin dashboard with CRUD
+                    functionality for managing departments,
+                    announcements, campus guides, and FAQs.
+                </p>
+
+                <p>
+                    → Implemented admin authentication,
+                    password recovery, and session-based
+                    access control.
+                </p>
+
+                <p>
+                    → Created a responsive and user-friendly
+                    interface using HTML, CSS, JavaScript,
+                    Bootstrap, and jQuery.
+                </p>
+
+                <p>
+                    → Added Arabic and English language support
+                    to improve accessibility for different users.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =========================================================
+     POPUP 04 — EDUCATION
+========================================================= -->
+
+<div class="modal" id="education-modal">
+
+    <div class="experience-content">
+
+        <button class="modal-close" type="button">
+            ×
+        </button>
+
+        <div class="section-label">
+            04. EDUCATION
+        </div>
+
+        <h2>
+            Education
+        </h2>
+
+        <div class="experience-item">
+
+            <div class="experience-date">
+                COMPUTER SCIENCE
+            </div>
+
+            <h3>
+                Bachelor of Computer Science
+            </h3>
+
+            <div class="experience-company">
+                Arab Open University · Riyadh, Saudi Arabia
+            </div>
+
+            <div class="experience-points">
+
+                <p>
+                    → Graduated with a degree in Computer Science
+                    from Arab Open University.
+                </p>
+
+                <p>
+                    → Built a foundation in programming,
+                    software development, databases,
+                    and computer systems.
+                </p>
+
+                <p>
+                    → Applied academic knowledge to
+                    practical software and web development projects.
+                </p>
+
+                <p>
+                    → Developed problem-solving and
+                    analytical skills through programming
+                    and technical coursework.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =========================================================
+     POPUP 05 — CERTIFICATES
+========================================================= -->
+
+<div class="modal" id="certificates-modal">
+
+    <div class="experience-content">
+
+        <button class="modal-close" type="button">
+            ×
+        </button>
+
+        <div class="section-label">
+            05. CERTIFICATES
+        </div>
+
+        <h2>
+            Certificates
+        </h2>
+
+        <div class="experience-item">
+
+            <div class="experience-date">
+                ACHIEVEMENTS
+            </div>
+
+            <h3>
+                Certificates & Achievements
+            </h3>
+
+            <div class="experience-company">
+                Professional Development
+            </div>
+
+            <div class="experience-points">
+
+                <p>
+                    → Certificates and professional achievements
+                    can be displayed here.
+                </p>
+
+                <p>
+                    → Additional certifications can be added
+                    as they are completed.
+                </p>
+
+                <p>
+                    → This section can later include certificate
+                    images, dates, issuing organizations,
+                    and verification links.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =========================================================
+     POPUP 06 — CONTACT
+========================================================= -->
+
+<div class="modal" id="contact-modal">
+
+    <div class="experience-content">
+
+        <button class="modal-close" type="button">
+            ×
+        </button>
+
+        <div class="section-label">
+            06. CONTACT
+        </div>
+
+        <h2>
+            Contact
+        </h2>
+
+        <div class="experience-item">
+
+            <div class="experience-date">
+                LET'S CONNECT
+            </div>
+
+            <h3>
+                Get In Touch
+            </h3>
+
+            <div class="experience-company">
+                Joud Alotaibi · Software Development
+            </div>
+
+            <div class="experience-points">
+
+                <p>
+                    → Interested in discussing software development,
+                    web development, internships, or career opportunities?
+                </p>
+
+                <p>
+                    → Feel free to reach out through email
+                    or connect with me on LinkedIn.
+                </p>
+
+            </div>
+
+
+            <div class="modal-socials">
+
+                <a href="mailto:your@email.com">
+                    Email ↗
+                </a>
+
+                <a
+                    href="https://www.linkedin.com/in/joud-al-otaibi-b83023395/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    LinkedIn ↗
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =================================
+     FOOTER
+================================= -->
+
+<footer>
+
+    <span>
+        © 2026 JOUD Alotaibi
+    </span>
+
+    <span>
+        SOFTWARE DEVELOPMENT × AI
+    </span>
+
+    <a href="#home">
+        BACK TO TOP ↑
+    </a>
+
+</footer>
+
+
+
+<!-- =================================
+     JAVASCRIPT
+================================= -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
